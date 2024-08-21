@@ -1,7 +1,7 @@
 # NBA Stats Inflation EDA Project
 
 ## Project Overview
-This project aims to analyze the inflation of NBA stats over various seasons. Using data science techniques, we explore trends and patterns in player performance metrics to understand how the game has evolved.
+This project aims to analyze the inflation of NBA stats over various seasons. Using data science techniques, I explore trends and patterns in player performance metrics to understand how the game has evolved.
 
 ## Technologies Used
 - Python 3
