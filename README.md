@@ -24,7 +24,7 @@ Multiple datasets from various NBA seasons were cleaned, merged, and transformed
 - Advanced stats
 - Team summaries
 - Foul and pace metrics
-- MVP award shares
+- Award shares
 
 Key data transformation steps:
 - Filtering out duplicate player-season entries using "TOT" rows
