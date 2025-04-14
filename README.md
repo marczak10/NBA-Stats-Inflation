@@ -8,12 +8,11 @@ This project is a deep-dive exploratory data analysis (EDA) into how NBA player 
 ## 🏀 Project Objective
 
 The goal of this project is to understand **why** modern NBA statistics are so inflated, **how** the game has evolved, and **what** this means for comparing players across eras. 
-
-It dives into:
-- Statistical inflation trends
-- Efficiency and pace shifts
-- Rule changes and strategic evolution
-- Impact of global talent
+This analysis explores:
+- 📈 Trends in scoring and statistical inflation over time  
+- ⚡ The impact of pace and offensive efficiency on modern stats  
+- 🧩 Changes in game rules and strategies  
+- 🌍 The role of globalization in expanding the talent pool  
 
 ---
 
