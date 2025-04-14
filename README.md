@@ -1,55 +1,92 @@
-# 🏀 NBA Statistics Inflation Analysis
+# NBA Stats Inflation & Era Comparison Project
 
-Welcome to the **NBA Statistics Inflation Analysis** project repository!  
-This project conducts an Exploratory Data Analysis (EDA) using Python to explore and understand the phenomenon of statistics inflation across different NBA seasons. The analysis focuses on identifying trends in player performance metrics such as scoring, 3 point shooting, pace and many more!
+Welcome to the **NBA Stats Inflation & Era Comparison Project**!  
+This project is a deep-dive exploratory data analysis (EDA) into how NBA player statistics have changed over time. It uncovers the key drivers behind the dramatic inflation in offensive output in recent years and makes adjustments to compare players across different eras fairly.
 
----
-
-## 📖 Project Overview
-
-This project is structured to perform an in-depth statistical analysis and visualization of NBA player data, emphasizing changes and trends in the league's statistical output over time.
-
-### Analysis Goals
-- Investigate statistical inflation trends.
-- Visualize player performance data across multiple seasons.
-- Identify significant factors influencing statistical changes.
+Designed as a portfolio project, it showcases advanced data wrangling, visualization, and analytical storytelling using real NBA datasets.
 
 ---
 
-## 📁 Content
-- **nba-stats-inflation-eda.ipynb**: A detailed Jupyter Notebook containing Python scripts, visualizations, and interpretative analysis of NBA data.
+## 🏀 Project Objective
+
+The goal of this project is to understand **why** modern NBA statistics are so inflated, **how** the game has evolved, and **what** this means for comparing players across eras. 
+
+It dives into:
+- Statistical inflation trends
+- Efficiency and pace shifts
+- Rule changes and strategic evolution
+- Impact of global talent
 
 ---
 
-## ⚙️ Requirements
+## 🧱 Data Preparation
 
-To run the analysis, ensure you have:
-- Python 3.x
-- Jupyter Notebook
-- Essential Python libraries:
-  - pandas
-  - numpy
-  - matplotlib
-  - seaborn
+Multiple datasets from various NBA seasons were cleaned, merged, and transformed. This includes:
+- Per-game and per-100 possessions player stats
+- Advanced stats
+- Team summaries
+- Foul and pace metrics
+- MVP award shares
 
-Install the required packages:
-```bash
-pip install jupyter pandas numpy matplotlib seaborn
-```
-
----
-
-## 🚀 Running the Notebook
-
-Launch the Jupyter Notebook using:
-```bash
-jupyter notebook nba-stats-inflation-eda.ipynb
-```
+Key data engineering steps:
+- Filtering out duplicate player-season entries using "TOT" rows
+- Creating per-75 possession metrics
+- Calculating **relative true shooting %**
+- Normalizing player positions for consistency
 
 ---
 
-## 📊 Data Source
+## 🔍 Exploratory Analysis Highlights
 
-The dataset used for this analysis is sourced from Kaggle dataset "NBA Stats (1947-present)"
+### 📈 1) Stats Changing Over the Years
+- Massive increase in 20+ PPG players in recent seasons.
+- Points per game have risen sharply, especially since 2015.
+- Modern NBA has become **more efficient**, not just faster.
+
+### 🧮 2) Comparing Players Across Eras
+- Adjusted stats (e.g., Points per 75 + relative TS%) reveal that many "top scorers" in raw data were inflated by era pace and minutes played.
+- Joel Embiid, Stephen Curry, and James Harden dominate the modern rankings.
+- Wilt Chamberlain’s 50.4 PPG season drops in relative value when adjusted for pace.
+
+### 🧠 3) Advanced Era Analysis
+- Visualization of **pace vs. offensive rating** over time
+- 3-point shot revolution tracked by position and volume
+- Exploration of players who were ahead of their time (e.g., Louie Dampier, Reggie Miller)
 
 ---
+
+## 📊 Visualizations & Key Charts
+
+The project includes several dynamic and visually intuitive charts, such as:
+
+- 📈 **Number of elite scorers over time**  
+- 🔁 **Points per game vs. Pace**  
+- 🧠 **Best scoring seasons (PTS per 75 vs. Relative TS%)**  
+- 🎯 **3PA per game by position across decades**  
+- 📜 **Timeline of rule changes & offensive evolution**
+
+---
+
+## 🧠 Key Takeaways
+
+- The NBA has **evolved tactically, strategically, and culturally**.
+- Rule changes (e.g., shot clock, illegal defense, hand-checking) and the **3-point explosion** have played major roles in stat inflation.
+- **Efficiency is now king**, not just volume.
+- Player comparisons require **era-adjusted context** to be meaningful.
+
+---
+
+## 🧰 Tools & Libraries Used
+
+- **Python**
+  - `pandas`, `numpy` for data processing
+  - `matplotlib`, `seaborn` for visualizations
+- **Jupyter Notebook** for narrative-driven EDA
+- **CSV files** as raw data source
+
+---
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE).  
+Feel free to fork, modify, or use with proper attribution.
