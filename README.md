@@ -3,8 +3,6 @@
 Welcome to the **NBA Stats Inflation & Era Comparison Project**!  
 This project is a deep-dive exploratory data analysis (EDA) into how NBA player statistics have changed over time. It uncovers the key drivers behind the dramatic inflation in offensive output in recent years and makes adjustments to compare players across different eras fairly.
 
-Designed as a portfolio project, it showcases advanced data wrangling, visualization, and analytical storytelling using real NBA datasets.
-
 ---
 
 ## 🏀 Project Objective
@@ -28,7 +26,7 @@ Multiple datasets from various NBA seasons were cleaned, merged, and transformed
 - Foul and pace metrics
 - MVP award shares
 
-Key data engineering steps:
+Key data transformation steps:
 - Filtering out duplicate player-season entries using "TOT" rows
 - Creating per-75 possession metrics
 - Calculating **relative true shooting %**
