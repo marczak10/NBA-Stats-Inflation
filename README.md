@@ -1,7 +1,7 @@
 # 🏀 NBA Statistics Inflation Analysis
 
 Welcome to the **NBA Statistics Inflation Analysis** project repository!  
-This project conducts an Exploratory Data Analysis (EDA) using Python to explore and understand the phenomenon of statistics inflation across different NBA seasons. The analysis focuses on identifying trends in player performance metrics such as scoring, assists, rebounds, and more.
+This project conducts an Exploratory Data Analysis (EDA) using Python to explore and understand the phenomenon of statistics inflation across different NBA seasons. The analysis focuses on identifying trends in player performance metrics such as scoring, 3 point shooting, pace and many more!
 
 ---
 
