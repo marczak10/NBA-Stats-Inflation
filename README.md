@@ -43,7 +43,7 @@ Key data transformation steps:
 
 ### 🧮 2) Comparing Players Across Eras
 - Adjusted stats (e.g., Points per 75 + relative TS%) reveal that many "top scorers" in raw data were inflated by era pace and minutes played.
-- Joel Embiid, Stephen Curry, and James Harden dominate the modern rankings.
+- Modern players dominating all time scoring rankings.
 - Wilt Chamberlain’s 50.4 PPG season drops in relative value when adjusted for pace.
 
 ### 🧠 3) Advanced Era Analysis
