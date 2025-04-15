@@ -49,7 +49,7 @@ Key data transformation steps:
 ### 🧠 3) Advanced Era Analysis
 - Visualization of **pace vs. offensive rating** over time
 - 3-point shot revolution tracked by position and volume
-- Exploration of players who were ahead of their time (e.g., Louie Dampier, Reggie Miller)
+- Exploration of players who were ahead of their time 
 
 ---
 
